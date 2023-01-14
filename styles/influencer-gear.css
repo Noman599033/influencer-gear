@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* Common Body Styles */
 body {
@@ -8,12 +9,14 @@ body {
     background-color: white;
     width: 1440px;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid red;
     margin: auto;
 }
 
 .primary-color {
     color: #3A3A3A;
+}
+.secondary-color {
+    color: rgba(224, 44, 109, 0.87);
 }
 
 /* Header Section Styles */
@@ -90,3 +93,109 @@ body {
     background-repeat: no-repeat;
     margin-left: 133px;
 }
+
+/* Brand Logos Part */
+.brand-container {
+    width: 1110px;
+    height: 110px;
+    border: 1px solid #AAAAAA;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: #FFFFFF;
+    border-right: #FFFFFF;
+}
+
+.brand-logos {
+    width: 986px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Popular Collection Part */
+.container {
+    width: 1047px;
+    margin: auto;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.blogs {
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.blog {
+    padding: 17px 15px;
+}
+
+.blog-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0px 6px 0px;
+}
+
+.blog-price {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px;
+}
+
+.fa-star {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+
+.blog-available {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+}
+
+.see-more{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.see-more a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
